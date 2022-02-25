@@ -19,5 +19,6 @@ namespace Catalog.API.Data
             Products = database.GetCollection<Product>(settings.CollectionName);
         }
         public IMongoCollection<Product> Products { get; }
+        //chandan
     }
 }
